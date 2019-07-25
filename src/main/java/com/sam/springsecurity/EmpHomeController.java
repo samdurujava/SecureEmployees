@@ -25,7 +25,7 @@ public class EmpHomeController {
         model.addAttribute("departments", departmentRepository.findAll());
         model.addAttribute("employees", employeeRepository.findAll());
 
-        return "index";
+        return "EmployeeIndex";
     }
 
     @GetMapping("/adddepartment")
